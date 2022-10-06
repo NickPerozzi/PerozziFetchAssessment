@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Perozzi Fetch Assessment</string>
+    <string name="id_number">ID Number: %1$s</string>
+    <string name="name">Name: %1$s</string>
+</resources>
