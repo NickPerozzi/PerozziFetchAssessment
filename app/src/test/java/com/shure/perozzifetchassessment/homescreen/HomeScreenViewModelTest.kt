@@ -28,6 +28,6 @@ class HomeScreenViewModelTest {
 
     @After
     fun teardown() {
-        // no database to tear down
+        // nothing backend-related to tear down
     }
 }

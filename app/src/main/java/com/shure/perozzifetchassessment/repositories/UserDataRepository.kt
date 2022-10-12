@@ -1,7 +1,8 @@
-package com.shure.perozzifetchassessment.repositories.userdata
+package com.shure.perozzifetchassessment.repositories
 
 import android.util.Log
 import com.shure.perozzifetchassessment.model.User
+import com.shure.perozzifetchassessment.api.RetrofitInstance
 import retrofit2.HttpException
 import java.io.IOException
 
@@ -11,7 +12,7 @@ object UserDataRepository {
 
     suspend fun getUserData(): List<User>? {
         val response = try {
-            RetrofitInstance.api.getUserData()
+            RetrofitInstance.userDataApi.getUserData()
         } catch (e: IOException) {
             Log.e(TAG, "No internet to pull json string")
             return null

@@ -5,7 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.shure.perozzifetchassessment.model.User
-import com.shure.perozzifetchassessment.repositories.userdata.UserDataRepository
+import com.shure.perozzifetchassessment.repositories.UserDataRepository
 import kotlinx.coroutines.launch
 
 class HomeScreenViewModel : ViewModel() {

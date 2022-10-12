@@ -1,4 +1,4 @@
-package com.shure.perozzifetchassessment.repositories.userdata
+package com.shure.perozzifetchassessment.api
 
 import com.shure.perozzifetchassessment.model.User
 import retrofit2.Response
