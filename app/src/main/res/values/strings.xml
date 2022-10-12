@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Perozzi Fetch Assessment</string>
-    <string name="id_number">ID Number: %1$s</string>
+    <string name="id_number">List ID: %1$s</string>
     <string name="name">Name: %1$s</string>
+    <string name="home_screen_title">Nick Perozzi\'s Fetch Assessment</string>
+    <string name="no_connection_no_users">Nothing here (sorry!) Please verify network connection and try launching the app again</string>
+    <string name="loading">This data is loading. Thank you for your patience!</string>
 </resources>

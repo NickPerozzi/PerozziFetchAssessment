@@ -12,12 +12,12 @@ val Typography = Typography(
     body1 = TextStyle(
         fontFamily = FontFamily.Monospace,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+        fontSize = 22.sp
     ),
     body2 = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontStyle = FontStyle.Italic,
-        fontSize = 14.sp
+        fontSize = 20.sp
     )
 )
